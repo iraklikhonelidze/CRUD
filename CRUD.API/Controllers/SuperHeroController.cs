@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 
 namespace CRUD.API.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class SuperHeroController : ControllerBase
     {
         private readonly DataContext _context;
